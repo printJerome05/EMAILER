@@ -37,6 +37,7 @@ Public Class Form1
                 email.Subject = TxtSubject.Text
                 email.IsBodyHtml = False
                 email.Body = RtxtMessageBody.Text
+                smtp.Send(email)
                 MessageBox.Show("Message Sent", "SUBMIT", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Catch ex As Exception
                 MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error)
