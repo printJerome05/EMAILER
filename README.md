@@ -1,5 +1,7 @@
 THIS IS A VB NET PROJECT TO SEND A EMAIL 
 
+DOWNLOAD THIS FIRST - EMAILER.msi in the files above
+
 Step 1: Go to setting setup the username first only use your gmail account 
 
 Step 2: Go to gmail https://myaccount.google.com/security and add atleast one 2 Step Verification
